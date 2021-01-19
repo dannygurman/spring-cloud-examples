@@ -1,0 +1,7 @@
+With a native profile, the Spring Cloud Config Server will load the configuration files from the local classpath
+(or a file system configured with a spring.cloud.config.server.native.searchLocations property).
+The default search locations are classpath:/, classpath:/config, file:./ and file:./config.
+
+We will use [classpath:./config] as our configuration store location.
+Create a config directory and a config-client.yaml file in it under our server project’s resources.
+ Put in any arbitrary settings in the config-client.properties file.
