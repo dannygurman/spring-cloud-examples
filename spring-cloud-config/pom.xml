@@ -16,5 +16,6 @@
 
     <modules>
         <module>./spring-cloud-config-server-local</module>
+        <module>./spring-cloud-config-server-git</module>
     </modules>
 </project>
